@@ -1,1 +1,138 @@
-# Website
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <title>Shoes Website</title>
+  <link rel="stylesheet" href="gray-theme.css" />
+<style>
+body { font-family: Arial, sans-serif; 
+            margin: 0;
+            padding: 0;
+            background-color: #D3D3D3; 
+            color: #333;  }
+
+ header {background-color: #00000; 
+            color: black; 
+            padding: 20px;
+            text-align: center }
+
+ h1 {  margin: 0;
+       font-size: 2.5em;  }
+
+ nav {background-color: #333;
+      text-align: center;
+    padding: 10px 0;}
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #f0f0f0;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            color: #00000;
+     
+        p {
+            font-size: 1.1em;
+        }
+
+        footer {
+            background-color: #333; 
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1><center><div class="logo">HBCU Customs</div></center></h2>
+	<p><h3><center>This website is for a class project, these are not real shoes, please don't sue us.</center></h3></p>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="collections.html">Collections</a>
+      <a href="#">Contact</a>
+<a href="checkout.html">Checkout</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2 class="section-title">Featured Shoes</h2>
+    <div class="shoe-grid">
+    
+<div class="shoe-card">
+        <img src="shoes/PVshoe.png" alt="Panther 4" height="400" width="400" />
+        <div class="shoe-info">
+          <h2>Panther 4</h2>
+          <p>$1000</p>
+          <a href="checkout.html" class="btn">Checkout</a>
+        </div>
+      </div>
+ 
+<div class="shoe-card">
+        <img src="shoes/NCATshoe.png" alt="Aggie Dogs" height="400" width="350"/>
+        <div class="shoe-info">
+          <h2>Aggie Dogs</h2>
+          <p>$650</p>
+          <a href="checkout.html" class="btn">Checkout</a>
+        </div>
+      </div>
+    
+<div class="shoe-card">
+        <img src="shoes/TxSUshoes.png" alt="React Infinity" height="400" width="400"/>
+        <div class="shoe-info">
+          <h2>Tiger Kicks</h2>
+          <p>$9</p>
+          <a href="checkout.html" class="btn">Checkout</a>
+        </div>
+      </div>
+      
+<div class="shoe-card">
+        <img src="shoes/CAUshoe.png" alt="Pegasus 39" height="400" width="350"/>
+        <div class="shoe-info">
+          <h2>Clark Old's</h2>
+          <p>$425</p>
+          <a href="checkout.html" class="btn">Checkout</a>
+        </div>
+      </div>
+      <!-- Add more shoes as needed -->
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 ShoeFlex. Built for sneakerheads, by sneakerheads.</p>
+  </footer>
+</body>
+</html>
